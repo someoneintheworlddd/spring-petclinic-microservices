@@ -7,7 +7,7 @@ set -o pipefail
 
 pkill -9 -f spring-petclinic || echo "Failed to kill any apps"
 
-docker compose kill || echo "No docker containers are running"
+docker compose kill || echo "No docker containers are runninssssssssssssssssg"
 
 echo "Running infra"
 docker compose up -d grafana-server prometheus-server tracing-server
