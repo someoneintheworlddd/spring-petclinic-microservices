@@ -12,7 +12,7 @@ docker compose kill || echo "No docker containers are running"
 echo "Running infra"
 docker compose up -d grafana-server prometheus-server tracing-server
 
-echo "Running apps"
+echo "Running appsssssssssssss"
 mkdir -p target
 nohup java -jar spring-petclinic-config-server/target/*.jar --server.port=8888 --spring.profiles.active=chaos-monkey > target/config-server.log 2>&1 &
 echo "Waiting for config server to start"
